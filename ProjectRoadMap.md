@@ -1,18 +1,18 @@
 # Project Roadmap
 
 ## Sprint 1
-- [x] Find reference program
-- [x] Run and evaluate
-- [x] Establish README, License, and Roadmap
+- [x] Find blackjack program
+- [x] Run and evaluate the code
+- [x] Create README, and Roadmap
 
 ## Sprint 2
-- [x] Unexpected change: found a GUI base
-- [x] Evaluate errors and run
-- [x] Change screen size 
+- [x] Look for changes: found a GUI base
+- [x] Locate errors
+- [x] Change word output 
 - [x] Add a separate title screen function
 - [x] Connect title screen to main game
 
 ## Sprint 3
-- [x] Add joker mode
+- [x] Add a joker card
 - [x] Update title screen, add buttons
 - [x] Add a rules screen
