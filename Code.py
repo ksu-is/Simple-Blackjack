@@ -96,7 +96,7 @@ class Game:
                         player_has_blackjack , dealer_has_blackjack)
                     continue 
                 
-                choice = input("PLease chose [Hit / stand] ").lower()
+                choice = input("PLease choose, would you like to [Hit / Stand] ").lower()
                 while choice not in ["h" , "s" , "hit" , "stand"]:
                     choice = input("PLease chose [Hit / stand] or (h/s)").lower()
                 if choice in ['hit', 'h']:
@@ -127,7 +127,7 @@ class Game:
             while again.lower() not in ["y" , "n"]:
                  again = input("Please enter Y or N ") 
             if again.lower() == "n":
-                print("Thanks for playing!")
+                print("Thanks for playing, Come back soon!")
                 playing = False
             else:
                 game_over = False
@@ -152,7 +152,7 @@ class Game:
             print("both players have blackjack! Draw!")
 
         elif player_has_blackjack: 
-            print("Player has blackjack! Player wins!")
+            print("Player has BLACKJACK! Congratulations! Player wins!")
         
         elif dealer_has_blackjack:
             print("Dealer has blackjack! Dealer wins!")
